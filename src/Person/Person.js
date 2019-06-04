@@ -2,7 +2,10 @@ import React from 'react'
 
 const Person = (props) => {
     return(
-        <p>I'm {props.name} and I am {props.age} year old!</p>
+        <div>
+            <p>I'm {props.name} and I am {props.age} year old!</p>
+            <p>{props.children}</p>
+        </div>
     )
 }
 
